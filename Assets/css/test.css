@@ -1,0 +1,107 @@
+.card {
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .card-top {
+    position: relative;
+  }
+  
+  .card-top img {
+    width: 100%;
+    display: block;
+  }
+  
+  .top-left-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .top-right-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .right-button{
+    margin-left: 60%;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color:rgb(255, 187, 0); 
+    color: rgba(139, 7, 233, 0.981);
+  }
+  
+  .bottom-right-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .card-bottom {
+    padding: 10px;
+  }
+  
+  .bottom-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .bottom-content .two-line-text {
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  
+  .bottom-content .small-text {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  
+  .bottom-image {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .bottom-image img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .bottom-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    position: relative;
+    max-width: 423px;
+    height: 698px;
+    margin: 0 auto;
+  }
+  
+  .second-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    z-index: 2;
+  }
+  
+  .first-div {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
